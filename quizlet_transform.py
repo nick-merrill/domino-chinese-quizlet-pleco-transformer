@@ -5,12 +5,12 @@ from sys import argv
 
 def __main__():
     file_name = argv[1]
-    category_name = argv[2]
+    category_prefix = argv[2]
     with open(file_name, 'r') as f:
         for line in f:
             if line.startswith('Lesson'):
-                sys.stdout.write("//Domino Chinese/{}/{}".format(
-                    category_name, line
+                sys.stdout.write("//{}/{}".format(
+                    category_prefix, line
                 ))
                 continue
             match = re.match(

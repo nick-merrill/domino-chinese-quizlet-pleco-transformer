@@ -16,7 +16,7 @@ Quizlet, or Pleco.
   to put all the sub-categories. Direct the output to the file you
   want to be exported.
 ```bash
-    python transform.py ~/Downloads/export.txt "Level 1 Complete" > ~/Downloads/transformed.txt
+    python quizlet_transform.py ~/Downloads/export.txt "Level 1 Complete" > ~/Downloads/transformed.txt
 ```
 * Use the Pleco app to import the flashcards.
   See [Pleco documentation](http://iphone.pleco.com/manual/30200/flash.html#import).
